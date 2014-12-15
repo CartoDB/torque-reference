@@ -1,0 +1,20 @@
+{
+  "author": "CartoDB",
+  "name": "torque-cartocss-reference",
+  "description": "Reference for CartoCSS in Torque",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cartodb/torque-cartocss-reference.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+      "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "glob":"4.x"
+  }
+}
