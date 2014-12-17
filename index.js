@@ -1,11 +1,5 @@
-var path = require('path');
-
 module.exports.version = {};
 
-var versionNums = [
-	'1.0.0'
-];
+module.exports.version['1.0.0'] = require('./1.0.0/reference.json');
 
-versionNums.map(function(version){
-	module.exports.version[version] = require(path.join(__dirname, version, 'reference.json'));
-});
+module.exports.version['latest'] = module.exports.version['1.0.0'];
