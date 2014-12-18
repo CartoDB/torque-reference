@@ -20,9 +20,6 @@ dist_folder:
 
 dist: dist_folder dist/torque-reference.js
 
-prepare-test-suite:
-	browserify test/suite.js > test/suite-bundle.js
-
 clean: 
 	rm -rf dist
 
