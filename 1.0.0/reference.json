@@ -75,7 +75,8 @@
             "css": "-torque-data-aggregation",
             "default-value": "linear",
             "type": [
-              "cumulative"
+              "cumulative",
+              "linear"
             ],
             "default-meaning": "previous values are discarded",
             "doc": "A linear animation will discard previous values while a cumulative animation will accumulate them until it restarts"
